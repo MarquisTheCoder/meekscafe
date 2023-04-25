@@ -1,0 +1,23 @@
+:footer {
+  --header-color: #fff;
+  --base-color: #fffc;
+}
+
+footer {
+  font-family: var(--thin-font);
+  background-color: #b4b4b412;
+
+  color: var(--base-color);
+}
+
+footer h3 {
+  color: var(--header-color);
+  font-family: var(--thin-font);
+}
+
+footer a {
+  color: var(--base-color);
+}
+footer h3 a {
+  color: var(--base-color);
+}

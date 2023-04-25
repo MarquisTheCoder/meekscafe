@@ -1,0 +1,15 @@
+/* Style the navigation menu */
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none !important;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #0005;
+  display: block;
+  margin-right: 100px;
+}
+
+/* Style the active link (or home/logo) */

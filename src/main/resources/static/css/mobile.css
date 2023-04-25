@@ -1,0 +1,72 @@
+@media only screen and (max-width: 766px) {
+  .order-button {
+    font-size: x-small;
+  }
+  .img-wrapper {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 500px;
+  }
+  #logo {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .order-button {
+    font-size: xx-small;
+  }
+  nav #logo {
+    font-size: 1.4rem;
+    width: 50%;
+  }
+  .order a {
+    font-size: 0.7rem;
+  }
+  nav {
+    padding: 0 30px 0 30px;
+  }
+  footer {
+    font-size: smaller;
+  }
+  footer h3 {
+    font-size: small;
+  }
+  #banner-title h1 {
+    font-size: 4.5rem !important;
+    margin-bottom: 50px;
+  }
+  #banner-info a {
+    font-size: larger;
+  }
+  #contact-us #contact-second {
+    display: none !important;
+  }
+  #contact-us iframe {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .order-button {
+    font-size: smaller;
+  }
+
+  #homepage-banner img {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 130%;
+    width: auto;
+    opacity: 0.8;
+  }
+
+  a.icon {
+    display: none;
+  }
+  .topnav #myLinks {
+    display: flex !important;
+  }
+}

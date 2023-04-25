@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+:root {
+  --background: #fff;
+  --buttons: #5b8f21;
+  --letters: #000;
+  --button-padding: 5px 20px;
+
+  --thin-font: "Josefin Sans", sans-serif;
+  --styled-font: "Dancing Script", cursive;
+  --thick-font: "Space Grotesk", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+html {
+  background-color: var(--background);
+}
+
+nav {
+  background-color: var(--background);
+  color: var(--letters);
+  height: 125px;
+  padding: 0 75px 0 75px;
+  z-index: 5;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+nav #logo {
+  font-family: var(--styled-font);
+  font-weight: lighter;
+  font-size: 2rem;
+  color: var(--buttons);
+}
+nav a {
+  color: var(--letters);
+}
+nav ul {
+  gap: 50px;
+}
+a {
+  font-family: var(--thin-font);
+  font-weight: 200;
+}
+
+.order a {
+  color: #fff;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+nav ul a:hover {
+  color: var(--buttons);
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#homepage-banner {
+  position: relative;
+  overflow: hidden;
+  height: 80vh;
+  width: 100vw;
+}
+
+#homepage-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000b;
+}
+
+#homepage-banner img {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 130%;
+  width: auto;
+  opacity: 0.8;
+}
+#homepage-banner a {
+  color: var(--background);
+}
+#homepage-banner #banner-title {
+  font-family: var(--styled-font);
+  transform: rotate(-10deg);
+}
+
+#homepage-banner > #banner-info {
+  z-index: 1;
+  margin-top: 100px;
+  color: var(--background);
+}
+
+#homepage-banner #banner-title h1 {
+  color: white;
+  font-size: 8rem;
+}
+
+#homepage-banner #banner-subtitle p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.order-button {
+  padding: var(--button-padding);
+  border-radius: 2px;
+  background-color: var(--buttons);
+  color: var(--letters);
+  border: none;
+}
+
+.down-arrow {
+  height: 30px;
+  width: 28px;
+}
+.down-arrow:hover {
+  cursor: pointer;
+}
+.scroll-overflow-x {
+  overflow-x: scroll !important;
+}
