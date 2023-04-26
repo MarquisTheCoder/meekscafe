@@ -73,3 +73,9 @@
 #facebook:hover {
   cursor: pointer;
 }
+
+#fullplate {
+  position: absolute;
+  top: -130px;
+  left: -30px;
+}
